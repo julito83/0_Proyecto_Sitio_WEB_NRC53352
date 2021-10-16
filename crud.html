@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/misestilos.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <div class="contenedor contenedor sombra">
+        <h2>Consulta por numero de ID</h2>
+        <label>Numero ID:</label>  <input type="number" id="id"> <br> 
+        <input type="button" value="Consultar" onclick="runApiConsultarId()"> <br><br><br>
+        <div class="contenedor contenedor sombra">
+            <label>ID:<h3 id="numid"></h3></label>
+            <label>Nombre:<h3 id="nombre"></h3></label>
+            <label>Telefono:<h3 id="telefono"></h3></label>
+            <label>Correo:<h3 id="correo"></h3></label>
+            <label>Mensaje:<h3 id="mensaje"></h3></label>
+        </div>
+    </div>
+    <br>
+    <div class="contenedor contenedor sombra">
+        <h2>Actualizar por numero de ID</h2>
+        <label>Numero ID:</label>  <input type="number" id="actid"> <br> 
+        <input type="button" value="Actualizar" onclick="runApiModificarId()"> <br><br><br>
+        <div class="contenedor contenedor sombra">
+            <label>Nombre:<input type="text" id="actnombre"></label>
+            <label>Telefono:<input type="text" id="acttelefono"></label>
+        </div>
+    </div>
+    <br>
+    <div class="contenedor contenedor sombra">
+        <h2>Eliminar registro por ID</h2>
+        <label>Numero ID:</label>  <input type="number" id="elimid"> <br> 
+        <input type="button" value="Eliminar" onclick="runApiEliminarId()"> <br><br><br>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "0_proyecto_sitio_web_nrc53407",
+  "version": "1.0.0",
+  "description": "Servidor WEB ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serverExpress.js",
+    "dev": "nodemon serverExpress.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanCastroRuiz/0_Proyecto_Sitio_WEB_NRC53407.git"
+  },
+  "author": "Grupo NRC53407",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanCastroRuiz/0_Proyecto_Sitio_WEB_NRC53407/issues"
+  },
+  "homepage": "https://github.com/IvanCastroRuiz/0_Proyecto_Sitio_WEB_NRC53407#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
